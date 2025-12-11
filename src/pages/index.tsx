@@ -152,7 +152,7 @@ function HomepageHeader() {
               marginBottom: '3rem'
             }}>
               <Link
-                to="/docs/intro"  // Start Reading
+                to="intro"  // Start Reading
                 style={{
                   display: 'inline-flex',
                   alignItems: 'center',
@@ -181,7 +181,7 @@ function HomepageHeader() {
               </Link>
 
               <Link
-                to="/docs/intro" // Browse Modules also points to intro
+                to="intro" // Browse Modules also points to intro
                 style={{
                   display: 'inline-flex',
                   alignItems: 'center',
@@ -256,7 +256,7 @@ function FeaturesSection() {
           {modules.map((module, index) => (
             <Link
               key={index}
-              to="/docs/intro" // Updated to intro
+              to="intro" // Updated to intro
               style={{
                 padding: '3rem 2rem',
                 background: 'rgba(255,255,255,0.05)',

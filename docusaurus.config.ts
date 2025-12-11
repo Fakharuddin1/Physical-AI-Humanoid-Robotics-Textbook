@@ -17,20 +17,20 @@ const config: Config = {
 
 
   // Set the production url of your site here
-  url: 'https://github.com/SyedaAnabia',
+  url: 'https:/Fakharuddin1.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/ai-systems-book/',
+  baseUrl: '/Physical-AI-Humanoid-Robotics-Textbook/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'SyedaAnabia', // Usually your GitHub org/user name.
-  projectName: 'ai-systems-book', // Usually your repo name.
+  organizationName: 'Fakharuddin1', // Usually your GitHub org/user name.
+  projectName: 'Physical-AI-Humanoid-Robotics-Textbook', // Usually your repo name.
  
 
  deploymentBranch: 'gh-pages',
  trailingSlash: false,
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
 
   // Even if you don't use internationalization, you can use this field to set
@@ -51,7 +51,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/SyedaAnabia/ai-systems-book',
+            'https://github.com/Fakharuddin1/Physical-AI-Humanoid-Robotics-Textbook',
         },
         blog: {
           showReadingTime: true,
@@ -62,7 +62,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/SyedaAnabia',
+            'https://github.com/Fakharuddin1',
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
@@ -96,7 +96,7 @@ const config: Config = {
         },
        
         {
-          href: 'https://github.com/SyedaAnabia',
+          href: 'https://github.com/Fakharuddin1',
           label: 'GitHub',
           position: 'right',
         },
@@ -110,27 +110,11 @@ const config: Config = {
           items: [
             {
               label: 'Tutorial',
-              to: '/docs/intro',
+              to: 'intro',
             },
           ],
         },
-        {
-          title: 'Community',
-          items: [
-            {
-              label: 'Stack Overflow',
-              href: 'https://github.com/SyedaAnabia',
-            },
-            {
-              label: 'Discord',
-              href: 'https://github.com/SyedaAnabia',
-            },
-            {
-              label: 'X',
-              href: 'https://x.com/docusaurus',
-            },
-          ],
-        },
+       
         
       ],
       copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
